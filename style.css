@@ -39,16 +39,15 @@ html {
 
 #navbar ul li {
     display: inline-block;
-    margin: 0 30px;
+    margin: 0 40px;
 }
 
-@media (max-width: 401px) {
+@media (max-width: 400px) {
     #navbar ul li {
-    margin: 0 0px;
+        margin: 0 10px;
     }
-    
-    #navbar .nav-link {
-     font-size: 5px;
+    #navbar .nav-link { 
+        font-size: 5px;
     }
 }
 
