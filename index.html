@@ -101,5 +101,10 @@
             </ul>
         </section>
     </main>
+    <script>
+    const navigationHeight = document.querySelector('#navbar').offsetHeight;
+ 
+    document.documentElement.style.setProperty('--scroll-padding', navigationHeight - 1 + "px");
+</script>
 </body>
 </html>
