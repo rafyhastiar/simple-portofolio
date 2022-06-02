@@ -44,11 +44,11 @@ html {
 
 @media (max-width: 401px) {
     #navbar ul li {
-    margin: 0 5px;
+    margin: 0 0px;
     }
     
     #navbar .nav-link {
-     font-size: 7px;
+     font-size: 5px;
     }
 }
 
