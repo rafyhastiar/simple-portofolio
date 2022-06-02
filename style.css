@@ -5,6 +5,10 @@
     scroll-behavior: smooth;
 }
 
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: var(--scroll-padding, 50px);
+}
 
 #navbar {
     position: fixed;
@@ -35,7 +39,7 @@
 
 #navbar ul li {
     display: inline-block;
-    margin: 0 40px;
+    margin: 0 30px;
 }
 
 @media (max-width: 768px) {
